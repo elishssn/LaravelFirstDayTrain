@@ -72,3 +72,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+After making changes, push the update to Github by running these commands on terminal:
+1. git add .
+2. git commit -m "name"
+3. git push origin master
