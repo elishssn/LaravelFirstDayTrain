@@ -77,3 +77,12 @@ After making changes, push the update to Github by running these commands on ter
 1. git add .
 2. git commit -m "name"
 3. git push origin master
+
+#### Easy Way
+php artisan make:model Model -a
+
+-auto generate
+model
+factory
+migration
+controller

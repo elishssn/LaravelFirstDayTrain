@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+                    <a href="{{ route('blog:index') }}">View Blog</a>
+                    <a href="{{ route('blog:create') }}">Create Blog</a>
                 </div>
             </div>
         </div>

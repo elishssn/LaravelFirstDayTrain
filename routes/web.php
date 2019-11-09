@@ -20,6 +20,11 @@ Route::get('/testing',function(){
 });
 
 Route::view('/welcome','welcome');
-Auth::routes(['register' => false]);
+
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/blogs', 'BlogController@index')->name('blog:index');
+Route::get('/blogs/create', 'BlogController@create')->name('blog:create');
+Route::post('/blogs/create', 'BlogController@store')->name('blog:store');
